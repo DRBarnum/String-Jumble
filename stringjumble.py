@@ -1,6 +1,6 @@
 """
 stringjumble.py
-Author: <your name>
+Author: Robbie
 Credit: <sources>
 
 Assignment:
@@ -27,8 +27,10 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 import string
 from string import ascii_lowercase 
-words = str(input("Please enter a string of text (the bigger the better): "))
+start = str(input("Please enter a string of text (the bigger the better): "))
+S = start.split(" ")
+Start= S[::-1]
+print(start[::-1])
+print(" ".join(Start))
+print(" ".join(Start)[::-1])
 
-print(words[::-1])
-
-print(words[
